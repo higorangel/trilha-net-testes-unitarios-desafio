@@ -1,3 +1,4 @@
+
 namespace TestesUnitarios.Desafio.Console.Services
 {
     public class ValidacoesLista
@@ -28,6 +29,11 @@ namespace TestesUnitarios.Desafio.Console.Services
         public int RetornarMenorNumeroLista(List<int> lista)
         {
             return lista.Min();
+        }
+
+        public bool ListaNaoContemDeterminadoNumero(List<int> lista, int numeroParaProcurar)
+        {
+            return (false);
         }
     }
 }
